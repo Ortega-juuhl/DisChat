@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User settings</title>
+    <link rel="stylesheet" href="usersettings.css">
+    <script src="https://kit.fontawesome.com/9e81387435.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="usersettings">
+        <h2>User Settings</h2>
+
+        <!-- Input fields for changing name -->
+        <div id="change-name" class="change-input">
+            <form action="changeName.php" method="post">
+                <input type="text" placeholder="New Name" name="new_name"> <br>
+                <button type="submit" class="btn">Change</button>
+            </form>
+        </div>
+
+        <!-- Input fields for changing username -->
+        <div id="change-username" class="change-input">
+            <form action="changeUsername.php" method="post">
+                <input type="text" placeholder="New Username" name="new_username"> <br>
+                <button type="submit" class="btn">Change</button>
+            </form>
+        </div>
+
+        <!-- Input fields for changing email -->
+        <div id="change-email" class="change-input">    
+            <form action="changeEmail.php" method="post">
+                <input type="email" name="new_email" placeholder="New Email"> <br>
+                <button type="submit" class="btn">Change</button>
+            </form>
+        </div>
+
+        <!-- Input fields for changing password -->
+        <div id="change-password" class="change-input">
+            <form action="changePassword.php" method="post">
+                <input type="password" placeholder="Current Password" name="old_password">  <br>
+                <input type="password" placeholder="New Password" name="new_password"> <br>
+                <input type="password" placeholder="Confirm New Password" name="confirm_password"> <br>
+                <button type="submit" class="btn">Change</button>
+            </form>
+        </div>
+
+        <br> <br>
+        <!-- Delete account option -->
+        <div>
+            <form action="delete_account.php">
+                <p>Delete account</p>
+                <button type="submit" class="btn delete-button">Delete</button>
+            </form>
+        </div> <br> <br>
+        <a href="index.php" class="home-button">Home</a>
+    </div>
+
+
+</body>
+</html>

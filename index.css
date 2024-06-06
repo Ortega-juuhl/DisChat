@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #36393f;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #2f3136;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #40444b;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+.search-container input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #7289da;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.search-container input[type="submit"]:hover {
+    background-color: #5a6cb2;
+}
+
+.friend-container {
+    background-color: #2f3136;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.friend-container h2 {
+    margin-top: 0;
+}
+
+.friend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #3a3e47;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.friend-form {
+    margin: 0;
+}
+
+.friend button {
+    background-color: #7289da;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.friend button:hover {
+    background-color: #5a6cb2;
+}
+
+.friend button.remove {
+    background-color: #e74c3c;
+}
+
+.friend button.remove:hover {
+    background-color: #c0392b;
+}
+
+.fa-bell {
+    color: #ffcc00;
+    margin-left: 10px;
+}
+
+<<<<<<< HEAD
+=======
+.friend-container p {
+    font-style: italic;
+}
+
+.report-form{
+    display: none;
+}
+>>>>>>> 5edaea36266ccc33c59404f5a1e7fa4b76beff80
